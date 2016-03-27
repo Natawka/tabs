@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="css/tabs.css">
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ <script src="js/tabs.js"></script>
+ </head> 
+<body>
+  <div class="wrapper">
+    <div class="tabs">
+	     <ul class="navigation">
+           <li><a class="nav" href="#first">Low throughput</a></li>
+           <li><a class="nav" href="#second">Dropped packets</a></li>
+           <li><a class="nav" href="#third">Latency</a></li>
+         </ul>
+	  <div id="first">
+	    <p>Due to varying load from disparate users sharing the same network resources, the bit rate (the maximum throughput) that can be provided to a certain data stream may be too low for realtime multimedia services if all data streams get the same scheduling priority.</p>
+	 </div>	
+	 <div id="second">
+	    <p>The routers might fail to deliver <strong>(drop)</strong> some packets if their data loads are corrupted, or the packets arrive when the router buffers are already full. The receiving application may ask for this information to be retransmitted, possibly causing severe delays in the overall transmission.</p>
+	 </div>
+	 <div id="third">
+	    <p>It might take a long time for each packet to reach its destination, because it gets held up in long queues, or it takes a less direct route to avoid congestion. This is different from throughput, as the delay can build up over time, even if the throughput is almost normal. In some cases, excessive latency can render an application such as <span>VoIP</span> or online gaming unusable.</p>
+	 </div>
+	
+	</div>
+   
+ 
+  </div>
+</body>
+</html>
