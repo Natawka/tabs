@@ -49,7 +49,7 @@ ul.navigation li a.selected:hover {
    border: 3px solid #255951;
    border-radius: 20px;
    background-color: #519890;
-	cursor: pointer;
+   cursor: pointer;
 }
 ul.navigation li a:hover {
     color: #196d60;
@@ -65,7 +65,56 @@ font-size: 15px;
 }
 
 span{
-	font-style: italic;
 	color: #39456b;
+	border: 1px solid white;
+	background-color:#9dd5ca;
+	text-shadow: 1px 1px 1px black;
+	border-radius: 3px;
+	padding: 3px;
+	font-size: 12px;
+	display: none;
+	color: white;
+	margin-left:15px;
+	font-style: italic;
+	font-weight: bold;
 }
+.cribs{
+	margin-top: 30px;
+	font-family: Arial, sans-serif;
+}
+.cribs label{
+	font-size: 16px;
+	color: #001e2b;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 1px 1px 2px #c2e2d8;
+}
+input[type="text"] {
+	border: none;
+	outline: none; /* удаляет обводку в браузерах*/
+	border-radius: 5px;
+	margin-top:10px;
+}
+#fname{
+	margin-left: 23px;
+}
+#address{
+	margin-left: 41px;
+}
+#lname{
+	margin-left: 24px;
+}
+input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 20px;
+	width: 90px;
+	color:#011e2b;
+	font-weight: bold;
+	font-style: italic;
+	border-radius: 5px;
+	margin-top:15px;
+	
+}
+ 
 
